@@ -1,0 +1,140 @@
+
+  
+
+
+
+.headerImage {
+  max-width: calc(100%);
+  height: calc(48.65%);
+  width: calc(100%);
+  min-height:  300px;
+  margin-left: auto;
+    margin-right: auto;
+  position: relative;
+/* background: url(../Moutain_Bike/images/hero-img.jpg); */
+  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+  background-color: #111;
+
+}
+.headerContent_sba {
+width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 40px;
+  padding-left: calc(4%);
+  padding-right: calc(4%);
+}
+
+.Content_headline {
+  
+  color: #FFF;
+text-align: center;
+/* Subtitle - Eyebrow - Large */
+font-family: Sohne;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 10%; /* 20px */
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.headerParagraph_sba {
+padding-left: calc(10%);
+padding-right: calc(10%);
+color: #FFF;
+text-align: center;
+}
+
+.headline-1{
+
+    color:white;
+}
+
+.gallerySectionSBA{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 36px;
+    padding-bottom: 36px;  
+    max-width: calc(100%);
+    width:100%;
+    margin-left: auto;
+      margin-right: auto;
+    /* background-color: blue; */
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+.tagsTitle h5 {
+    font-family: Sohne;
+    /* text-transform: uppercase;  */
+    margin:12px 0px 0px 0px;
+}
+.tags{
+    display: flex;
+    justify-content: center;
+  }
+
+.tags ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: 6px 0px 8px 0px;
+}
+.tags ul li {
+    background: #353535;
+    float: left;
+    width: auto;
+    /* height: 14px !important; */
+    margin: 0 12px 0 0;
+    padding: 4px 8px;
+    text-align: center;
+    display:table;
+    border-radius: 4px;
+}
+ .tags ul li:last-child {
+    margin-right: 0px;
+  }
+
+
+
+
+.tags ul li p {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    display:table-cell;
+    vertical-align:middle;
+    line-height: 10px;
+
+}
+
+
+
+
+
+/* media query for mobile */
+@media only screen and (max-width: 500px) {
+  h2 {
+    font-size: 28px;
+    letter-spacing: .25px;
+    line-height: 36px;
+  }
+  h1 {
+  
+  font-size: 36px;
+  }
+
+  .headerParagraph {
+    padding-left: calc(5%);
+    padding-right: calc(5%);
+     
+    }
+}
+
